@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+​
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="../public/stylesheets/style.css">
+  <title>GetMed | Order</title>
+</head>
+​
+
+<body>
+  <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+    <a class="navbar-brand" href="#">GetMed</a>
+    <div class="btn-group dropleft">
+      <input class="btn btn-white btn-outline-info" type="submit" value="Create Account">
+      <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Menu
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+        <button class="dropdown-item" type="button"><a href="/">Home</a></button>
+        <button class="dropdown-item" type="button"><a href="/profile">Profile</a></button>
+        <button class="dropdown-item" type="button"><a href="/login">Login</a></button>
+        <button class="dropdown-item" type="button"><a href="/order">Order</a></button>
+        <button class="dropdown-item" type="button"><a href="/logout">Logout</a></button>
+        <button class="dropdown-item" type="button">Contact Us</button>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="row" style="text-align: center">
+    <div class="col-md-6 col-md-offset-3">
+      <h1> Tell us what you want to do ?</h1>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-8">
+      <div class="col-md-6">
+        <div class="card text-center mb-3 MyCard" ; style="cursor: pointer;">
+          <div class="row no-gutters">
+            <div class="card-body">
+              <a href="/existingOrder"><img src="../images/existing.jpg" class="card-img" alt="..."></a>
+              <!-- <button onclick="location.href='existingOrder.html';"><h1>View Existing Order</h1></button> -->
+              <h1>View Existing Order</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card text-center mb-3 MyCard" onclick="location.href='neworder.html';" style="cursor: pointer;">
+          <div class="row no-gutters">
+            <div class="card-body">
+              <img src="../images/scooter.jpg" class="card-img" alt="...">
+              <h1>Place New Order</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
